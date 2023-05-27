@@ -43,7 +43,6 @@ export default function Home() {
 				<meta name="description" content="Chris Mooney Web Development and Design" />
 				<link rel="icon" href="/favicon.ico" />
 				<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
-				<link rel="stylesheet" href="../public/fonts/stylesheet.css" type="text/css" media="all" />
 			</Head>
 			<main className=" px-10 bg-gray-900 md:px-20 lg:px-40">
 				<section className="relative min-h-screen flex flex-col items-center justify-center text-center py-0 px-3">
