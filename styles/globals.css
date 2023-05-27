@@ -76,14 +76,14 @@ a {
 }
 @font-face {
 	font-family: 'bombing';
-	src: url('./public/fonts/bombing-webfont.woff2') format('woff2'), url('./public/fonts/bombing-webfont.woff') format('woff');
+	src: url('../public/fonts/bombing-webfont.woff2') format('woff2'), url('../public/fonts/bombing-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'tagtype';
-	src: url('./public/fonts/tagtype-webfont.woff2') format('woff2'), url('./public/fonts/tagtype-webfont.woff') format('woff');
+	src: url('../public/fonts/tagtype-webfont.woff2') format('woff2'), url('../public/fonts/tagtype-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
