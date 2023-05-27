@@ -20,11 +20,6 @@ a {
 	box-sizing: border-box;
 }
 
-@font-face {
-	font-family: "burtons";
-	src: url('../public/Burtons.otf');
-}
-
 .video-docker video {
 	top: 50%;
 	left: 50%;
@@ -78,4 +73,11 @@ a {
 
 .pixels {
 	font-family: 'VT323', monospace;
+}
+
+.font-bombing {
+	font-family: 'bombing';
+}
+.font-tagtype {
+	font-family: 'tagtype';
 }

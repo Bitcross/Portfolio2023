@@ -42,9 +42,8 @@ export default function Home() {
 				<title>Chris Mooney Web Design</title>
 				<meta name="description" content="Chris Mooney Web Development and Design" />
 				<link rel="icon" href="/favicon.ico" />
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 				<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+				<link rel="stylesheet" href="../public/fonts/stylesheet.css" type="text/css" media="all" />
 			</Head>
 			<main className=" px-10 bg-gray-900 md:px-20 lg:px-40">
 				<section className="relative min-h-screen flex flex-col items-center justify-center text-center py-0 px-3">
@@ -371,7 +370,7 @@ export default function Home() {
 						<div className="bg-gradient-to-b from-purple-800 flex flex-col w-full p-8 sm:p-12 rounded-xl shadow-lg text-white items-center text-center">
 							<div className="flex flex-col justify-between space-y-8">
 								<div>
-									<h1 className="font-bombing text-5xl tracking-wide">Contact Me</h1>
+									<h1 className="font-bombing text-5xl tracking-wide text-purple-300">Contact Me</h1>
 									<p className="pt-2 text-purple-100 text-sm">Like what you see? Let&apos;s chat!</p>
 								</div>
 								<div className="flex flex-col space-y-4 items-center">
