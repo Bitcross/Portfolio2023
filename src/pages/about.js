@@ -45,7 +45,7 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center text-purple-300">
         <Layout className="pt-16">
           <AnimatedText
-            text="Every journey begins with a single step."
+            text="Let's Talk About Me"
             className="mb-16 !leading-tight text-5xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
