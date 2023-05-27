@@ -127,8 +127,6 @@ const about = () => {
               </div>
             </div> */}
           </div>
-
-          <Skills />
         </Layout>
       </main>
     </>
