@@ -74,27 +74,13 @@ a {
 .pixels {
 	font-family: 'VT323', monospace;
 }
-@font-face {
-	font-family: 'bombing';
-	src: url('../public/Bombing.ttf') format('ttf'), url('../public/bombing-webfont.woff') format('woff'), url('../public/bombing-webfont.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'tagtype';
-	src: url('../public/tagtype.ttf') format('ttf'), url('../public/tagtype-webfont.woff') format('woff'), url('../public/tagtype-webfont.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
 .font-bombing {
 	font-family: 'bombing';
 }
 .font-tagtype {
 	font-family: 'tagtype';
 }
-
 #profile {
-	width: 100%;
-	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
 }

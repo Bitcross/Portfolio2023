@@ -42,7 +42,6 @@ export default function Home() {
 				<title>Chris Mooney Web Design</title>
 				<meta name="description" content="Chris Mooney Web Development and Design" />
 				<link rel="icon" href="/favicon.ico" />
-				<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
 			</Head>
 			<main className=" px-10 bg-gray-900 md:px-20 lg:px-40">
 				<section className="relative min-h-screen flex flex-col items-center justify-center text-center py-0 px-3">
@@ -56,18 +55,13 @@ export default function Home() {
 						/>
 					</div>
 					<div class="video-content">
-						<div className="mx-auto w-80 h-80 relative md:h-132 md:w-96">
-							<Image src={Chris} layout="fill" objectFit="contain" alt="Chris Portrait" />
+						<div className="mx-auto relative">
+							<Image id="profile" src={Chris} layout="fill" objectFit="contain" alt="Chris Portrait" />
 						</div>
 						<div className="text-center p-10 py-10">
 							{/* <h2 className="font-tagtype text-5xl py-2 text-purple-700 font-medium  md:text-6xl">
 								Chris Mooney
 							</h2> */}
-							<h3 className="text-2xl py-2 text-gray-400 md:text-3xl">
-								<span className="text-purple-600 pixels">Developer</span>{' '}
-								<span className="text-base pr-1">and</span>{' '}
-								<span className="font-tagtype text-purple-600">Designer.</span>
-							</h3>
 							<p className="text-md py-5 leading-8 text-gray-500 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
 								Hey there! I&apos;m a freelance web designer, developer, and digital marketer. I love
 								creating awesome websites that not only look great but also deliver a top-notch user
