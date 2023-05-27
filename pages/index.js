@@ -55,7 +55,7 @@ export default function Home() {
 						/>
 					</div>
 					<div class="video-content">
-						<div className="mx-auto relative">
+						<div className="mx-auto relative w-80 h-80">
 							<Image id="profile" src={Chris} layout="fill" objectFit="contain" alt="Chris Portrait" />
 						</div>
 						<div className="text-center p-10 py-10">
