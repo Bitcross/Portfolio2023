@@ -75,15 +75,15 @@ a {
 	font-family: 'VT323', monospace;
 }
 @font-face {
-	font-family: 'bombingregular';
-	src: url('../public/fonts/bombing-webfont.woff2') format('woff2'), url('../public/fonts/bombing-webfont.woff') format('woff');
+	font-family: 'bombing';
+	src: url('./public/fonts/bombing-webfont.woff2') format('woff2'), url('./public/fonts/bombing-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'tagtyperegular';
-	src: url('../public/fonts/tagtype-webfont.woff2') format('woff2'), url('../public/fonts/tagtype-webfont.woff') format('woff');
+	font-family: 'tagtype';
+	src: url('./public/fonts/tagtype-webfont.woff2') format('woff2'), url('./public/fonts/tagtype-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -92,4 +92,9 @@ a {
 }
 .font-tagtype {
 	font-family: 'tagtype';
+}
+
+#profile {
+	width: 100%;
+	height: 100%;
 }
