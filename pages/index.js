@@ -42,6 +42,9 @@ export default function Home() {
 				<title>Chris Mooney Web Design</title>
 				<meta name="description" content="Chris Mooney Web Development and Design" />
 				<link rel="icon" href="/favicon.ico" />
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
 			</Head>
 			<main className=" px-10 bg-gray-900 md:px-20 lg:px-40">
 				<section className="relative min-h-screen flex flex-col items-center justify-center text-center py-0 px-3">
@@ -56,7 +59,7 @@ export default function Home() {
 					</div>
 					<div class="video-content">
 						<div className="mx-auto w-80 h-80 relative md:h-132 md:w-96">
-							<Image src={Chris} layout="fill" objectFit="cover" alt='Chris Portrait'/>
+							<Image src={Chris} layout="fill" objectFit="cover" alt="Chris Portrait" />
 						</div>
 						<div className="text-center p-10 py-10">
 							{/* <h2 className="font-tagtype text-5xl py-2 text-purple-700 font-medium  md:text-6xl">
@@ -113,12 +116,12 @@ export default function Home() {
 					</div>
 					<div className="lg:flex gap-10">
 						<div className="text-center shadow-lg p-10 rounded-xl my-10  bg-gradient-to-t from-purple-800 to-black text-white flex-1">
-							<Image src={design2} width={500} height={300} alt='Web Design and Development'/>
+							<Image src={design2} width={500} height={300} alt="Web Design and Development" />
 							<p className="py-2">
 								Revamp your business game with our kickass web design and development services! We
 								create jaw-dropping websites that not only grab attention but also skyrocket your online
-								presence, attract customers, and take your brand to the next level. Let&apos;npms rock the
-								digital world together!
+								presence, attract customers, and take your brand to the next level. Let&apos;npms rock
+								the digital world together!
 							</p>
 							<h4 className="py-4 text-purple-600 dark:text-white">Tools:</h4>
 							<div className="flex flex-col space-y-4 items-center">
@@ -154,12 +157,12 @@ export default function Home() {
 							</div> */}
 						</div>
 						<div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gradient-to-t from-purple-800 to-black text-white flex-1">
-							<Image src={code} width={500} height={320} alt='Digital Marketing and Content Creation'/>
+							<Image src={code} width={500} height={320} alt="Digital Marketing and Content Creation" />
 							<p className="py-2">
 								Elevate your brand with our killer digital marketing services! From captivating content
-								creation to strategic social media campaigns, we&apos;ll ignite your online presence and fuel
-								your business growth. Let&apos;s conquer the digital realm together and leave a lasting
-								impression on your target audience!
+								creation to strategic social media campaigns, we&apos;ll ignite your online presence and
+								fuel your business growth. Let&apos;s conquer the digital realm together and leave a
+								lasting impression on your target audience!
 							</p>
 							<h4 className="py-4 text-purple-600 dark:text-white">Let&apos;s Get You Set Up On:</h4>
 							<div className="flex flex-col space-y-4 items-center">
@@ -192,7 +195,7 @@ export default function Home() {
 				</section>
 				<section className="pb-10">
 					<div className="text-center">
-					<h3 className="font-bombing text-6xl py-1 text-purple-700 ">Some of my Work!</h3>
+						<h3 className="font-bombing text-6xl py-1 text-purple-700 ">Some of my Work!</h3>
 					</div>
 					<div class="flex justify-center pt-8">
 						<div class="w-full flex flex-col md:flex-row rounded-lg bg-gradient-to-b from-purple-800 text-white shadow-lg">
@@ -203,7 +206,7 @@ export default function Home() {
 									height={'100%'}
 									layout="responsive"
 									src={carbcrush}
-									alt='Carb Crush'
+									alt="Carb Crush"
 								/>
 							</div>
 							<div class="basis-1/2 p-6 flex flex-col justify-start">
@@ -223,14 +226,16 @@ export default function Home() {
 									<a
 										className="basis-1/2 text-center font-semibold px-3 py-2 border-none rounded-md bg-gradient-to-r from-purple-700 to-purple-900 text-gray-900 hover:bg-gradient-to-l hover:text-gray-300"
 										href="https://bitcross.github.io/CarbCrush/"
-										target="_blank" rel='noreferrer'
+										target="_blank"
+										rel="noreferrer"
 									>
 										Demo
 									</a>
 									<a
 										className="basis-1/2 text-center font-semibold px-3 py-2 border-none rounded-md bg-gradient-to-r from-purple-900 to-purple-700 text-gray-900 hover:bg-gradient-to-l hover:text-gray-300"
 										href="https://github.com/Bitcross/CarbCrush"
-										target="_blank" rel='noreferrer'
+										target="_blank"
+										rel="noreferrer"
 									>
 										Github
 									</a>
@@ -247,13 +252,14 @@ export default function Home() {
 									height={'100%'}
 									layout="responsive"
 									src={pvgc}
-									alt='Pittsburgh Video Game Con'
+									alt="Pittsburgh Video Game Con"
 								/>
 							</div>
 							<div class="p-6 flex flex-col basis-1/2 justify-start">
 								<h5 class=" text-4xl font-medium mb-2 font-tagtype">Pittsburgh Video Game Con</h5>
 								<p class=" text-base mb-4">
-									Event website for a Pittsburgh Video Game Convention featuring an event schedule, local hotels, and an overview of the David L. Lawrence Convention Center.
+									Event website for a Pittsburgh Video Game Convention featuring an event schedule,
+									local hotels, and an overview of the David L. Lawrence Convention Center.
 								</p>
 								<p class="mt-8">Technology Used:</p>
 								<div className="inline-flex space-x-2 items-center pt-2">
@@ -267,14 +273,15 @@ export default function Home() {
 										className="basis-1/2 text-center font-semibold px-3 py-2 border-none rounded-md bg-gradient-to-r from-purple-700 to-purple-900 text-gray-900 hover:bg-gradient-to-l hover:text-gray-300"
 										href="https://bitcross.github.io/PittsburghVideoGameCon/"
 										target="_blank"
-										rel='noreferrer'
+										rel="noreferrer"
 									>
 										Demo
 									</a>
 									<a
 										className="basis-1/2 text-center font-semibold px-3 py-2 border-none rounded-md bg-gradient-to-r from-purple-900 to-purple-700 text-gray-900 hover:bg-gradient-to-l hover:text-gray-300"
 										href="https://github.com/Bitcross/PittsburghVideoGameCon"
-										target="_blank" rel='noreferrer'
+										target="_blank"
+										rel="noreferrer"
 									>
 										Github
 									</a>
@@ -291,7 +298,7 @@ export default function Home() {
 									height={'100%'}
 									layout="responsive"
 									src={wordle}
-									alt='Wordle'
+									alt="Wordle"
 								/>
 							</div>
 							<div class=" basis-1/2 p-6 flex flex-col justify-start">
@@ -330,11 +337,11 @@ export default function Home() {
 				</section>
 				<section>
 					<div className="text-center">
-					<h3 className="font-bombing text-6xl py-1 text-purple-700 ">What people are saying...</h3>
+						<h3 className="font-bombing text-6xl py-1 text-purple-700 ">What people are saying...</h3>
 					</div>
 					<div className="lg:flex gap-10">
 						<div className="text-center shadow-lg p-10 rounded-xl my-10  bg-gradient-to-b from-purple-800 text-white flex-1">
-							<Image src={Andy} width={100} height={100} alt='Andrew Young'/>
+							<Image src={Andy} width={100} height={100} alt="Andrew Young" />
 							<h4 className="text-4xl font-medium font-bombing text-purple-300">Andrew Young</h4>
 							<h6 className="text-md pb-5">Full-stack Developer and Veteran</h6>
 							<p className="py-2">
@@ -347,18 +354,17 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="text-center shadow-lg p-10 rounded-xl my-10  bg-gradient-to-b from-purple-800 text-white flex-1">
-							<Image src={Anon} width={100} height={100} alt='Anonymous'/>
+							<Image src={Anon} width={100} height={100} alt="Anonymous" />
 							<h4 className="text-4xl font-medium font-bombing text-purple-300">Shayne Eakles</h4>
 							<h6 className="text-md pb-5">Owner @ JNN Services</h6>
 							<p className="py-2">
 								I wanted to say thank you for providing me with an excellent website at a great price!
-								As a small business owner I look for value in my purchases and that&apos;s exactly what I
-								found with you! Your outstanding customer support and thorough communication showed me
+								As a small business owner I look for value in my purchases and that&apos;s exactly what
+								I found with you! Your outstanding customer support and thorough communication showed me
 								immediately that you had my interests in mind before your own. Thank you for seamlessly
 								updating my presence on the web!
 							</p>
 						</div>
-						
 					</div>
 				</section>
 				<section>
@@ -390,13 +396,9 @@ export default function Home() {
 										<a href="">
 											<FaLinkedinIn className="text-purple-300 hover:text-purple-800" />
 										</a>
-										<a
-									href="/resume.pdf"
-									target="_blank"
-									className=""
-								>
-									<HiDocumentText className="text-purple-300 hover:text-purple-800" />
-								</a>
+										<a href="/resume.pdf" target="_blank" className="">
+											<HiDocumentText className="text-purple-300 hover:text-purple-800" />
+										</a>
 									</div>
 								</div>
 							</div>
