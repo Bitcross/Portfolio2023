@@ -59,7 +59,7 @@ export default function Home() {
 					</div>
 					<div class="video-content">
 						<div className="mx-auto w-80 h-80 relative md:h-132 md:w-96">
-							<Image src={Chris} layout="fill" objectFit="cover" alt="Chris Portrait" />
+							<Image src={Chris} layout="fill" objectFit="contain" alt="Chris Portrait" />
 						</div>
 						<div className="text-center p-10 py-10">
 							{/* <h2 className="font-tagtype text-5xl py-2 text-purple-700 font-medium  md:text-6xl">
@@ -174,8 +174,7 @@ export default function Home() {
 								</div>
 								<div className="inline-flex space-x-2 items-center">
 									<FaTiktok className="text-purple-300 text-xl" />
-									<span>Tiktok</span> <FaYoutube className="text-purple-300 text-xl" />
-									<span>YouTube</span> <FaTwitter className="text-purple-300 text-xl" />
+									<span>Tiktok</span> <FaTwitter className="text-purple-300 text-xl" />
 									<span>Twitter</span>
 								</div>
 							</div>
