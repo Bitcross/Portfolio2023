@@ -36,7 +36,7 @@ export default function Home() {
                 <AnimatedText text="Hey There!" className='!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl text-purple-800
                 '/>
-                <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
+                <p className='my-4 text-base font-medium md:text-sm sm:text-xs text-purple-300'>
                 I&apos;m a freelance web designer, developer, and digital marketer. I love creating awesome websites that not only look great but also deliver a top-notch user experience. By using the latest technologies and smart marketing strategies, I help my clients achieve online success. Hit me up and let&apos;s chat!
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
